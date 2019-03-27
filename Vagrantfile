@@ -52,6 +52,7 @@ Vagrant.configure("2") do |config|
 
     config.vm.provider "virtualbox" do |vb|
       vb.name = "faqdev-development-environment"
+      vb.memory = "4096"
     end
 
   # config.vm.provider "virtualbox" do |vb|
