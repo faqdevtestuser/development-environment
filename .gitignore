@@ -1,3 +1,4 @@
 .idea
 .vagrant
 *.log
+vagrant/ubuntu16/mysql-server-password.txt
